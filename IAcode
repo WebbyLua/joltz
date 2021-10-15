@@ -1,0 +1,1535 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local joltzstupidgui = Instance.new("ScreenGui")
+local topbar = Instance.new("ImageLabel")
+local TextLabel = Instance.new("TextLabel")
+local textframe = Instance.new("ImageLabel")
+local Frame = Instance.new("Frame")
+local UIGridLayout = Instance.new("UIGridLayout")
+local Frame_2 = Instance.new("Frame")
+local walkspeed = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
+local UIGradient = Instance.new("UIGradient")
+local TextLabel_2 = Instance.new("TextLabel")
+local wstext = Instance.new("TextLabel")
+local Frame_3 = Instance.new("Frame")
+local hitbox = Instance.new("Frame")
+local TextButton_2 = Instance.new("TextButton")
+local UIGradient_2 = Instance.new("UIGradient")
+local TextLabel_3 = Instance.new("TextLabel")
+local wstext_2 = Instance.new("TextLabel")
+local Frame_4 = Instance.new("Frame")
+local TextButton_3 = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local TextLabel_4 = Instance.new("TextLabel")
+local Frame_5 = Instance.new("Frame")
+local TextButton_4 = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local TextLabel_5 = Instance.new("TextLabel")
+local Frame_6 = Instance.new("Frame")
+local TextButton_5 = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextButton_6 = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local Frame_7 = Instance.new("Frame")
+local TextButton_7 = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local TextLabel_7 = Instance.new("TextLabel")
+local Frame_8 = Instance.new("Frame")
+local TextButton_8 = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local TextLabel_8 = Instance.new("TextLabel")
+local TextButton_9 = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local TextLabel_9 = Instance.new("TextLabel")
+local topbar_2 = Instance.new("ImageLabel")
+local textframe_2 = Instance.new("ImageLabel")
+local Frame_9 = Instance.new("Frame")
+local UIGridLayout_2 = Instance.new("UIGridLayout")
+local TextButton_10 = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local TextButton_11 = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local TextButton_12 = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local TextButton_13 = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local TextButton_14 = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local TextButton_15 = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local TextButton_16 = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local TextButton_17 = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local TextButton_18 = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local TextButton_19 = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local TextButton_20 = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local TextButton_21 = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local TextButton_22 = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local TextButton_23 = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local TextButton_24 = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local TextButton_25 = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local TextButton_26 = Instance.new("TextButton")
+local UICorner_24 = Instance.new("UICorner")
+local TextButton_27 = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
+local TextButton_28 = Instance.new("TextButton")
+local UICorner_26 = Instance.new("UICorner")
+local TextButton_29 = Instance.new("TextButton")
+local UICorner_27 = Instance.new("UICorner")
+local TextButton_30 = Instance.new("TextButton")
+local UICorner_28 = Instance.new("UICorner")
+local TextButton_31 = Instance.new("TextButton")
+local UICorner_29 = Instance.new("UICorner")
+local TextButton_32 = Instance.new("TextButton")
+local UICorner_30 = Instance.new("UICorner")
+local lasagnadance = Instance.new("TextButton")
+local UICorner_31 = Instance.new("UICorner")
+local TextLabel_10 = Instance.new("TextLabel")
+
+--Properties:
+
+joltzstupidgui.Name = "joltz stupid gui"
+joltzstupidgui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+joltzstupidgui.ResetOnSpawn = false
+
+topbar.Name = "topbar"
+topbar.Parent = joltzstupidgui
+topbar.AnchorPoint = Vector2.new(0.5, 0.5)
+topbar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+topbar.BackgroundTransparency = 1.000
+topbar.Position = UDim2.new(0.499210149, 0, 0.33828485, 0)
+topbar.Size = UDim2.new(0, 500, 0, 30)
+topbar.ZIndex = 25
+topbar.Image = "http://www.roblox.com/asset/?id=7728414805"
+topbar.ImageColor3 = Color3.fromRGB(24, 24, 24)
+topbar.ScaleType = Enum.ScaleType.Slice
+topbar.SliceCenter = Rect.new(100, 100, 100, 100)
+topbar.SliceScale = 0.050
+
+TextLabel.Parent = topbar
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0, 0, -0.0344827585, 0)
+TextLabel.Size = UDim2.new(0.880021453, 0, 1, 0)
+TextLabel.ZIndex = 25
+TextLabel.Font = Enum.Font.SourceSansLight
+TextLabel.Text = "   joltz | press insert to toggle gui"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+TextLabel.TextXAlignment = Enum.TextXAlignment.Left
+
+textframe.Name = "textframe"
+textframe.Parent = topbar
+textframe.AnchorPoint = Vector2.new(0.5, 0.5)
+textframe.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+textframe.BackgroundTransparency = 1.000
+textframe.Position = UDim2.new(0.5, 0, 4.99936199, 0)
+textframe.Size = UDim2.new(1, 0, 10, 0)
+textframe.Image = "http://www.roblox.com/asset/?id=7728414805"
+textframe.ImageColor3 = Color3.fromRGB(30, 30, 30)
+textframe.ScaleType = Enum.ScaleType.Slice
+textframe.SliceCenter = Rect.new(100, 100, 100, 100)
+textframe.SliceScale = 0.100
+
+Frame.Parent = textframe
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BackgroundTransparency = 1.000
+Frame.Position = UDim2.new(0, 0, 0.100000001, 0)
+Frame.Size = UDim2.new(1, 0, 0.899999917, 0)
+
+UIGridLayout.Parent = Frame
+UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout.CellSize = UDim2.new(0.200000003, 0, 0, 50)
+
+Frame_2.Parent = Frame
+Frame_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame_2.BackgroundTransparency = 1.000
+Frame_2.Size = UDim2.new(0, 100, 0, 100)
+
+walkspeed.Name = "walkspeed"
+walkspeed.Parent = Frame_2
+walkspeed.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+walkspeed.BorderColor3 = Color3.fromRGB(0, 0, 0)
+walkspeed.BorderSizePixel = 0
+walkspeed.Position = UDim2.new(0.143590897, 0, 0.430779099, 0)
+walkspeed.Size = UDim2.new(0, 67, 0, 5)
+
+TextButton.Parent = walkspeed
+TextButton.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BackgroundTransparency = 1.000
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0, 0, 0.5, 0)
+TextButton.Size = UDim2.new(0, 9, 1, 0)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = ""
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 14.000
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(121, 255, 119)), ColorSequenceKeypoint.new(0.03, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient.Parent = walkspeed
+
+TextLabel_2.Parent = walkspeed
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(-0.238805965, 0, -4.00000286, 0)
+TextLabel_2.Size = UDim2.new(0, 100, 0, 20)
+TextLabel_2.Font = Enum.Font.SourceSansLight
+TextLabel_2.Text = "Walkspeed"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+wstext.Name = "wstext"
+wstext.Parent = walkspeed
+wstext.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+wstext.BackgroundTransparency = 1.000
+wstext.Position = UDim2.new(-0.25373134, 0, 0.999996901, 0)
+wstext.Size = UDim2.new(0, 100, 0, 13)
+wstext.Font = Enum.Font.SourceSansLight
+wstext.Text = "100"
+wstext.TextColor3 = Color3.fromRGB(255, 255, 255)
+wstext.TextScaled = true
+wstext.TextSize = 14.000
+wstext.TextWrapped = true
+
+Frame_3.Parent = Frame
+Frame_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame_3.BackgroundTransparency = 1.000
+Frame_3.Size = UDim2.new(0, 100, 0, 100)
+
+hitbox.Name = "hitbox"
+hitbox.Parent = Frame_3
+hitbox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+hitbox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+hitbox.BorderSizePixel = 0
+hitbox.Position = UDim2.new(0.164000019, 0, 0.410999984, 0)
+hitbox.Size = UDim2.new(0, 67, 0, 5)
+
+TextButton_2.Parent = hitbox
+TextButton_2.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.BackgroundTransparency = 1.000
+TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Position = UDim2.new(0, 0, 0.5, 0)
+TextButton_2.Size = UDim2.new(0, 9, 1, 0)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = ""
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextSize = 14.000
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(121, 255, 119)), ColorSequenceKeypoint.new(0.03, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_2.Parent = hitbox
+
+TextLabel_3.Parent = hitbox
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0, 0, -4.00000286, 0)
+TextLabel_3.Size = UDim2.new(0, 67, 0, 20)
+TextLabel_3.Font = Enum.Font.SourceSansLight
+TextLabel_3.Text = "Hitbox Extender"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+wstext_2.Name = "wstext"
+wstext_2.Parent = hitbox
+wstext_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+wstext_2.BackgroundTransparency = 1.000
+wstext_2.Position = UDim2.new(-0.25373134, 0, 0.999996901, 0)
+wstext_2.Size = UDim2.new(0, 100, 0, 13)
+wstext_2.Font = Enum.Font.SourceSansLight
+wstext_2.Text = "100"
+wstext_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+wstext_2.TextScaled = true
+wstext_2.TextSize = 14.000
+wstext_2.TextWrapped = true
+
+Frame_4.Parent = Frame
+Frame_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_4.BackgroundTransparency = 1.000
+Frame_4.Size = UDim2.new(0, 100, 0, 100)
+
+TextButton_3.Parent = Frame_4
+TextButton_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.BorderSizePixel = 0
+TextButton_3.Position = UDim2.new(-0.0299999993, 0, 0.200000003, 0)
+TextButton_3.Size = UDim2.new(0, 25, 0, 25)
+TextButton_3.Font = Enum.Font.SourceSansLight
+TextButton_3.Text = ""
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextScaled = true
+TextButton_3.TextSize = 14.000
+TextButton_3.TextWrapped = true
+
+UICorner.Parent = TextButton_3
+
+TextLabel_4.Parent = Frame_4
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0.219999999, 0, 0.200000003, 0)
+TextLabel_4.Size = UDim2.new(0, 80, 0, 25)
+TextLabel_4.Font = Enum.Font.SourceSansLight
+TextLabel_4.Text = "BOX ESP"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+Frame_5.Parent = Frame
+Frame_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_5.BackgroundTransparency = 1.000
+Frame_5.Size = UDim2.new(0, 100, 0, 100)
+
+TextButton_4.Parent = Frame_5
+TextButton_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.BorderSizePixel = 0
+TextButton_4.Position = UDim2.new(-0.0299999993, 0, 0.200000003, 0)
+TextButton_4.Size = UDim2.new(0, 25, 0, 25)
+TextButton_4.Font = Enum.Font.SourceSansLight
+TextButton_4.Text = ""
+TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.TextScaled = true
+TextButton_4.TextSize = 14.000
+TextButton_4.TextWrapped = true
+
+UICorner_2.Parent = TextButton_4
+
+TextLabel_5.Parent = Frame_5
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(0.219999999, 0, 0.200000003, 0)
+TextLabel_5.Size = UDim2.new(0, 70, 0, 25)
+TextLabel_5.Font = Enum.Font.SourceSansLight
+TextLabel_5.Text = "Spin"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+
+Frame_6.Parent = Frame
+Frame_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_6.BackgroundTransparency = 1.000
+Frame_6.Size = UDim2.new(0, 100, 0, 100)
+
+TextButton_5.Parent = Frame_6
+TextButton_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.BorderSizePixel = 0
+TextButton_5.Position = UDim2.new(0.0299999993, 0, 0.25999999, 0)
+TextButton_5.Size = UDim2.new(0, 25, 0, 25)
+TextButton_5.Font = Enum.Font.SourceSansLight
+TextButton_5.Text = ""
+TextButton_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.TextScaled = true
+TextButton_5.TextSize = 14.000
+TextButton_5.TextWrapped = true
+
+UICorner_3.Parent = TextButton_5
+
+TextLabel_6.Parent = Frame_6
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Position = UDim2.new(0.280000001, 0, 0.25999999, 0)
+TextLabel_6.Size = UDim2.new(0, 70, 0, 25)
+TextLabel_6.Font = Enum.Font.SourceSansLight
+TextLabel_6.Text = "Jitter"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextWrapped = true
+
+TextButton_6.Parent = Frame
+TextButton_6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.BorderSizePixel = 0
+TextButton_6.Position = UDim2.new(-0.0299999993, 0, 0.200000003, 0)
+TextButton_6.Size = UDim2.new(0, 25, 0, 25)
+TextButton_6.Font = Enum.Font.SourceSansLight
+TextButton_6.Text = "Upside Down (client)"
+TextButton_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.TextScaled = true
+TextButton_6.TextSize = 14.000
+TextButton_6.TextWrapped = true
+
+UICorner_4.Parent = TextButton_6
+
+Frame_7.Parent = Frame
+Frame_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_7.BackgroundTransparency = 1.000
+Frame_7.Size = UDim2.new(0, 100, 0, 100)
+
+TextButton_7.Parent = Frame_7
+TextButton_7.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.BorderSizePixel = 0
+TextButton_7.Position = UDim2.new(-0.0299999993, 0, 0.200000003, 0)
+TextButton_7.Size = UDim2.new(0, 25, 0, 25)
+TextButton_7.Font = Enum.Font.SourceSansLight
+TextButton_7.Text = ""
+TextButton_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.TextScaled = true
+TextButton_7.TextSize = 14.000
+TextButton_7.TextWrapped = true
+
+UICorner_5.Parent = TextButton_7
+
+TextLabel_7.Parent = Frame_7
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Position = UDim2.new(0.219999999, 0, 0.200000003, 0)
+TextLabel_7.Size = UDim2.new(0, 70, 0, 25)
+TextLabel_7.Font = Enum.Font.SourceSansLight
+TextLabel_7.Text = "Rainbow(client)"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextScaled = true
+TextLabel_7.TextSize = 25.000
+TextLabel_7.TextWrapped = true
+
+Frame_8.Parent = Frame
+Frame_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_8.BackgroundTransparency = 1.000
+Frame_8.Size = UDim2.new(0, 100, 0, 100)
+
+TextButton_8.Parent = Frame_8
+TextButton_8.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_8.BorderSizePixel = 0
+TextButton_8.Position = UDim2.new(-0.0299999993, 0, 0.200000003, 0)
+TextButton_8.Size = UDim2.new(0, 25, 0, 25)
+TextButton_8.Font = Enum.Font.SourceSansLight
+TextButton_8.Text = ""
+TextButton_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_8.TextScaled = true
+TextButton_8.TextSize = 14.000
+TextButton_8.TextWrapped = true
+
+UICorner_6.Parent = TextButton_8
+
+TextLabel_8.Parent = Frame_8
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.Position = UDim2.new(0.219999999, 0, 0.200000003, 0)
+TextLabel_8.Size = UDim2.new(0, 70, 0, 25)
+TextLabel_8.Font = Enum.Font.SourceSansLight
+TextLabel_8.Text = "INF Jump"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextScaled = true
+TextLabel_8.TextSize = 25.000
+TextLabel_8.TextWrapped = true
+
+TextButton_9.Parent = Frame
+TextButton_9.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_9.BorderSizePixel = 0
+TextButton_9.Position = UDim2.new(-0.0299999993, 0, 0.200000003, 0)
+TextButton_9.Size = UDim2.new(0, 25, 0, 25)
+TextButton_9.Font = Enum.Font.SourceSansLight
+TextButton_9.Text = "proxima creature"
+TextButton_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_9.TextScaled = true
+TextButton_9.TextSize = 14.000
+TextButton_9.TextWrapped = true
+
+UICorner_7.Parent = TextButton_9
+
+TextLabel_9.Parent = textframe
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.Position = UDim2.new(0, 0, 0.92495048, 0)
+TextLabel_9.Size = UDim2.new(1, 0, -0.0916170254, 50)
+TextLabel_9.Font = Enum.Font.SourceSansLight
+TextLabel_9.Text = "no disrespect to all of the creators that made item asylum"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextScaled = true
+TextLabel_9.TextSize = 14.000
+TextLabel_9.TextWrapped = true
+
+topbar_2.Name = "topbar"
+topbar_2.Parent = joltzstupidgui
+topbar_2.AnchorPoint = Vector2.new(0.5, 0.5)
+topbar_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+topbar_2.BackgroundTransparency = 1.000
+topbar_2.Position = UDim2.new(0.868878365, 0, 0.334912181, 0)
+topbar_2.Size = UDim2.new(0, 250, 0, 30)
+topbar_2.ZIndex = 25
+topbar_2.Image = "http://www.roblox.com/asset/?id=7728414805"
+topbar_2.ImageColor3 = Color3.fromRGB(24, 24, 24)
+topbar_2.ScaleType = Enum.ScaleType.Slice
+topbar_2.SliceCenter = Rect.new(100, 100, 100, 100)
+topbar_2.SliceScale = 0.050
+
+textframe_2.Name = "textframe"
+textframe_2.Parent = topbar_2
+textframe_2.AnchorPoint = Vector2.new(0.5, 0.5)
+textframe_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+textframe_2.BackgroundTransparency = 1.000
+textframe_2.Position = UDim2.new(0.5, 0, 6.03269625, 0)
+textframe_2.Size = UDim2.new(1, 0, 12.0666666, 0)
+textframe_2.Image = "http://www.roblox.com/asset/?id=7728414805"
+textframe_2.ImageColor3 = Color3.fromRGB(30, 30, 30)
+textframe_2.ScaleType = Enum.ScaleType.Slice
+textframe_2.SliceCenter = Rect.new(100, 100, 100, 100)
+textframe_2.SliceScale = 0.100
+
+Frame_9.Parent = textframe_2
+Frame_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_9.BackgroundTransparency = 1.000
+Frame_9.Position = UDim2.new(0, 0, 0.100000054, 0)
+Frame_9.Size = UDim2.new(1, 0, 0.906666577, 0)
+
+UIGridLayout_2.Parent = Frame_9
+UIGridLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout_2.CellSize = UDim2.new(0.200000003, 0, 0, 50)
+
+TextButton_10.Parent = Frame_9
+TextButton_10.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_10.BorderSizePixel = 0
+TextButton_10.Position = UDim2.new(-0.0299999993, 0, 0.200000003, 0)
+TextButton_10.Size = UDim2.new(0, 25, 0, 25)
+TextButton_10.Font = Enum.Font.SourceSansLight
+TextButton_10.Text = "proxima creature"
+TextButton_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_10.TextScaled = true
+TextButton_10.TextSize = 14.000
+TextButton_10.TextWrapped = true
+
+UICorner_8.Parent = TextButton_10
+
+TextButton_11.Parent = Frame_9
+TextButton_11.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_11.BorderSizePixel = 0
+TextButton_11.Position = UDim2.new(-0.0299999993, 0, 0.200000003, 0)
+TextButton_11.Size = UDim2.new(0, 25, 0, 25)
+TextButton_11.Font = Enum.Font.SourceSansLight
+TextButton_11.Text = "tpose"
+TextButton_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_11.TextScaled = true
+TextButton_11.TextSize = 14.000
+TextButton_11.TextWrapped = true
+
+UICorner_9.Parent = TextButton_11
+
+TextButton_12.Parent = Frame_9
+TextButton_12.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_12.BorderSizePixel = 0
+TextButton_12.Position = UDim2.new(-0.0299999993, 0, 0.200000003, 0)
+TextButton_12.Size = UDim2.new(0, 25, 0, 25)
+TextButton_12.Font = Enum.Font.SourceSansLight
+TextButton_12.Text = "funny rat dance"
+TextButton_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_12.TextScaled = true
+TextButton_12.TextSize = 14.000
+TextButton_12.TextWrapped = true
+
+UICorner_10.Parent = TextButton_12
+
+TextButton_13.Parent = Frame_9
+TextButton_13.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_13.BorderSizePixel = 0
+TextButton_13.Position = UDim2.new(-0.0299999993, 0, 0.200000003, 0)
+TextButton_13.Size = UDim2.new(0, 25, 0, 25)
+TextButton_13.Font = Enum.Font.SourceSansLight
+TextButton_13.Text = "donald"
+TextButton_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_13.TextScaled = true
+TextButton_13.TextSize = 14.000
+TextButton_13.TextWrapped = true
+
+UICorner_11.Parent = TextButton_13
+
+TextButton_14.Parent = Frame_9
+TextButton_14.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_14.BorderSizePixel = 0
+TextButton_14.Position = UDim2.new(-0.0299999993, 0, 0.200000003, 0)
+TextButton_14.Size = UDim2.new(0, 25, 0, 25)
+TextButton_14.Font = Enum.Font.SourceSansLight
+TextButton_14.Text = "distraction"
+TextButton_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_14.TextScaled = true
+TextButton_14.TextSize = 14.000
+TextButton_14.TextWrapped = true
+
+UICorner_12.Parent = TextButton_14
+
+TextButton_15.Parent = Frame_9
+TextButton_15.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_15.BorderSizePixel = 0
+TextButton_15.Position = UDim2.new(-0.0299999993, 0, 0.200000003, 0)
+TextButton_15.Size = UDim2.new(0, 25, 0, 25)
+TextButton_15.Font = Enum.Font.SourceSansLight
+TextButton_15.Text = "dance"
+TextButton_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_15.TextScaled = true
+TextButton_15.TextSize = 14.000
+TextButton_15.TextWrapped = true
+
+UICorner_13.Parent = TextButton_15
+
+TextButton_16.Parent = Frame_9
+TextButton_16.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_16.BorderSizePixel = 0
+TextButton_16.Position = UDim2.new(-0.0299999993, 0, 0.200000003, 0)
+TextButton_16.Size = UDim2.new(0, 25, 0, 25)
+TextButton_16.Font = Enum.Font.SourceSansLight
+TextButton_16.Text = "gakuen"
+TextButton_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_16.TextScaled = true
+TextButton_16.TextSize = 14.000
+TextButton_16.TextWrapped = true
+
+UICorner_14.Parent = TextButton_16
+
+TextButton_17.Parent = Frame_9
+TextButton_17.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_17.BorderSizePixel = 0
+TextButton_17.Position = UDim2.new(-0.0299999993, 0, 0.200000003, 0)
+TextButton_17.Size = UDim2.new(0, 25, 0, 25)
+TextButton_17.Font = Enum.Font.SourceSansLight
+TextButton_17.Text = "best mates"
+TextButton_17.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_17.TextScaled = true
+TextButton_17.TextSize = 14.000
+TextButton_17.TextWrapped = true
+
+UICorner_15.Parent = TextButton_17
+
+TextButton_18.Parent = Frame_9
+TextButton_18.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_18.BorderSizePixel = 0
+TextButton_18.Position = UDim2.new(-0.0299999993, 0, 0.200000003, 0)
+TextButton_18.Size = UDim2.new(0, 25, 0, 25)
+TextButton_18.Font = Enum.Font.SourceSansLight
+TextButton_18.Text = "interlaced"
+TextButton_18.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_18.TextScaled = true
+TextButton_18.TextSize = 14.000
+TextButton_18.TextWrapped = true
+
+UICorner_16.Parent = TextButton_18
+
+TextButton_19.Parent = Frame_9
+TextButton_19.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_19.BorderSizePixel = 0
+TextButton_19.Position = UDim2.new(-0.0299999993, 0, 0.200000003, 0)
+TextButton_19.Size = UDim2.new(0, 25, 0, 25)
+TextButton_19.Font = Enum.Font.SourceSansLight
+TextButton_19.Text = "ballistic"
+TextButton_19.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_19.TextScaled = true
+TextButton_19.TextSize = 14.000
+TextButton_19.TextWrapped = true
+
+UICorner_17.Parent = TextButton_19
+
+TextButton_20.Parent = Frame_9
+TextButton_20.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_20.BorderSizePixel = 0
+TextButton_20.Position = UDim2.new(-0.0299999993, 0, 0.200000003, 0)
+TextButton_20.Size = UDim2.new(0, 25, 0, 25)
+TextButton_20.Font = Enum.Font.SourceSansLight
+TextButton_20.Text = "omni"
+TextButton_20.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_20.TextScaled = true
+TextButton_20.TextSize = 14.000
+TextButton_20.TextWrapped = true
+
+UICorner_18.Parent = TextButton_20
+
+TextButton_21.Parent = Frame_9
+TextButton_21.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_21.BorderSizePixel = 0
+TextButton_21.Position = UDim2.new(-0.0299999993, 0, 0.200000003, 0)
+TextButton_21.Size = UDim2.new(0, 25, 0, 25)
+TextButton_21.Font = Enum.Font.SourceSansLight
+TextButton_21.Text = "nitori"
+TextButton_21.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_21.TextScaled = true
+TextButton_21.TextSize = 14.000
+TextButton_21.TextWrapped = true
+
+UICorner_19.Parent = TextButton_21
+
+TextButton_22.Parent = Frame_9
+TextButton_22.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_22.BorderSizePixel = 0
+TextButton_22.Position = UDim2.new(-0.0299999993, 0, 0.200000003, 0)
+TextButton_22.Size = UDim2.new(0, 25, 0, 25)
+TextButton_22.Font = Enum.Font.SourceSansLight
+TextButton_22.Text = "birdword"
+TextButton_22.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_22.TextScaled = true
+TextButton_22.TextSize = 14.000
+TextButton_22.TextWrapped = true
+
+UICorner_20.Parent = TextButton_22
+
+TextButton_23.Parent = Frame_9
+TextButton_23.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_23.BorderSizePixel = 0
+TextButton_23.Position = UDim2.new(-0.0299999993, 0, 0.200000003, 0)
+TextButton_23.Size = UDim2.new(0, 25, 0, 25)
+TextButton_23.Font = Enum.Font.SourceSansLight
+TextButton_23.Text = "monster mash"
+TextButton_23.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_23.TextScaled = true
+TextButton_23.TextSize = 14.000
+TextButton_23.TextWrapped = true
+
+UICorner_21.Parent = TextButton_23
+
+TextButton_24.Parent = Frame_9
+TextButton_24.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_24.BorderSizePixel = 0
+TextButton_24.Position = UDim2.new(-0.0299999993, 0, 0.200000003, 0)
+TextButton_24.Size = UDim2.new(0, 25, 0, 25)
+TextButton_24.Font = Enum.Font.SourceSansLight
+TextButton_24.Text = "oktober aid"
+TextButton_24.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_24.TextScaled = true
+TextButton_24.TextSize = 14.000
+TextButton_24.TextWrapped = true
+
+UICorner_22.Parent = TextButton_24
+
+TextButton_25.Parent = Frame_9
+TextButton_25.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_25.BorderSizePixel = 0
+TextButton_25.Position = UDim2.new(-0.0299999993, 0, 0.200000003, 0)
+TextButton_25.Size = UDim2.new(0, 25, 0, 25)
+TextButton_25.Font = Enum.Font.SourceSansLight
+TextButton_25.Text = "they dont know"
+TextButton_25.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_25.TextScaled = true
+TextButton_25.TextSize = 14.000
+TextButton_25.TextWrapped = true
+
+UICorner_23.Parent = TextButton_25
+
+TextButton_26.Parent = Frame_9
+TextButton_26.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_26.BorderSizePixel = 0
+TextButton_26.Position = UDim2.new(-0.0299999993, 0, 0.200000003, 0)
+TextButton_26.Size = UDim2.new(0, 25, 0, 25)
+TextButton_26.Font = Enum.Font.SourceSansLight
+TextButton_26.Text = "pillar man"
+TextButton_26.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_26.TextScaled = true
+TextButton_26.TextSize = 14.000
+TextButton_26.TextWrapped = true
+
+UICorner_24.Parent = TextButton_26
+
+TextButton_27.Parent = Frame_9
+TextButton_27.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_27.BorderSizePixel = 0
+TextButton_27.Position = UDim2.new(-0.0299999993, 0, 0.200000003, 0)
+TextButton_27.Size = UDim2.new(0, 25, 0, 25)
+TextButton_27.Font = Enum.Font.SourceSansLight
+TextButton_27.Text = "step"
+TextButton_27.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_27.TextScaled = true
+TextButton_27.TextSize = 14.000
+TextButton_27.TextWrapped = true
+
+UICorner_25.Parent = TextButton_27
+
+TextButton_28.Parent = Frame_9
+TextButton_28.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_28.BorderSizePixel = 0
+TextButton_28.Position = UDim2.new(-0.0299999993, 0, 0.200000003, 0)
+TextButton_28.Size = UDim2.new(0, 25, 0, 25)
+TextButton_28.Font = Enum.Font.SourceSansLight
+TextButton_28.Text = "skill issue"
+TextButton_28.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_28.TextScaled = true
+TextButton_28.TextSize = 14.000
+TextButton_28.TextWrapped = true
+
+UICorner_26.Parent = TextButton_28
+
+TextButton_29.Parent = Frame_9
+TextButton_29.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_29.BorderSizePixel = 0
+TextButton_29.Position = UDim2.new(-0.0299999993, 0, 0.200000003, 0)
+TextButton_29.Size = UDim2.new(0, 25, 0, 25)
+TextButton_29.Font = Enum.Font.SourceSansLight
+TextButton_29.Text = "library vibing"
+TextButton_29.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_29.TextScaled = true
+TextButton_29.TextSize = 14.000
+TextButton_29.TextWrapped = true
+
+UICorner_27.Parent = TextButton_29
+
+TextButton_30.Parent = Frame_9
+TextButton_30.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_30.BorderSizePixel = 0
+TextButton_30.Position = UDim2.new(-0.0299999993, 0, 0.200000003, 0)
+TextButton_30.Size = UDim2.new(0, 25, 0, 25)
+TextButton_30.Font = Enum.Font.SourceSansLight
+TextButton_30.Text = "awoo"
+TextButton_30.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_30.TextScaled = true
+TextButton_30.TextSize = 14.000
+TextButton_30.TextWrapped = true
+
+UICorner_28.Parent = TextButton_30
+
+TextButton_31.Parent = Frame_9
+TextButton_31.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_31.BorderSizePixel = 0
+TextButton_31.Position = UDim2.new(-0.0299999993, 0, 0.200000003, 0)
+TextButton_31.Size = UDim2.new(0, 25, 0, 25)
+TextButton_31.Font = Enum.Font.SourceSansLight
+TextButton_31.Text = "bunny dance"
+TextButton_31.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_31.TextScaled = true
+TextButton_31.TextSize = 14.000
+TextButton_31.TextWrapped = true
+
+UICorner_29.Parent = TextButton_31
+
+TextButton_32.Parent = Frame_9
+TextButton_32.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_32.BorderSizePixel = 0
+TextButton_32.Position = UDim2.new(-0.0299999993, 0, 0.200000003, 0)
+TextButton_32.Size = UDim2.new(0, 25, 0, 25)
+TextButton_32.Font = Enum.Font.SourceSansLight
+TextButton_32.Text = "ascend"
+TextButton_32.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_32.TextScaled = true
+TextButton_32.TextSize = 14.000
+TextButton_32.TextWrapped = true
+
+UICorner_30.Parent = TextButton_32
+
+lasagnadance.Name = "lasagna dance"
+lasagnadance.Parent = Frame_9
+lasagnadance.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+lasagnadance.BorderSizePixel = 0
+lasagnadance.Position = UDim2.new(-0.0299999993, 0, 0.200000003, 0)
+lasagnadance.Size = UDim2.new(0, 25, 0, 25)
+lasagnadance.Font = Enum.Font.SourceSansLight
+lasagnadance.Text = "ascend"
+lasagnadance.TextColor3 = Color3.fromRGB(255, 255, 255)
+lasagnadance.TextScaled = true
+lasagnadance.TextSize = 14.000
+lasagnadance.TextWrapped = true
+
+UICorner_31.Parent = lasagnadance
+
+TextLabel_10.Parent = topbar_2
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.Position = UDim2.new(0, 0, -0.0344827585, 0)
+TextLabel_10.Size = UDim2.new(0.880021453, 0, 1, 0)
+TextLabel_10.ZIndex = 25
+TextLabel_10.Font = Enum.Font.SourceSansLight
+TextLabel_10.Text = "   emotes"
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextScaled = true
+TextLabel_10.TextSize = 14.000
+TextLabel_10.TextWrapped = true
+TextLabel_10.TextXAlignment = Enum.TextXAlignment.Left
+
+-- Scripts:
+
+local function NMSTBR_fake_script() -- walkspeed.LocalScript 
+	local script = Instance.new('LocalScript', walkspeed)
+
+	local UserInputService = game:GetService("UserInputService")
+	local Dragging = false
+	local Precent
+	script.Parent.TextButton.MouseButton1Down:Connect(function()
+		Dragging = true
+	end)
+	
+	UserInputService.InputChanged:Connect(function()
+		if Dragging then
+			local MousePos = UserInputService:GetMouseLocation()+Vector2.new(0,36)
+			local RelPos = MousePos-script.Parent.AbsolutePosition
+			Precent = math.clamp(RelPos.X/script.Parent.AbsoluteSize.X,0,1)
+			script.Parent.TextButton.Position = UDim2.new(Precent,0,0.5,0)
+			print(Precent)
+			script.Parent.wstext.Text = math.round(Precent * 100) + 16
+			script.Parent.UIGradient.Offset = Vector2.new(Precent, 0)
+		end
+	end)
+	
+	UserInputService.InputEnded:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			Dragging = false
+		end
+	end)
+	
+	game:GetService("RunService").RenderStepped:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Precent*100 + 16
+	end)
+end
+coroutine.wrap(NMSTBR_fake_script)()
+local function LSGXQY_fake_script() -- hitbox.LocalScript 
+	local script = Instance.new('LocalScript', hitbox)
+
+	local UserInputService = game:GetService("UserInputService")
+	local Dragging = false
+	script.Parent.TextButton.MouseButton1Down:Connect(function()
+		Dragging = true
+	end)
+	
+	local Precent
+	
+	UserInputService.InputChanged:Connect(function()
+		if Dragging then
+			local MousePos = UserInputService:GetMouseLocation()+Vector2.new(0,36)
+			local RelPos = MousePos-script.Parent.AbsolutePosition
+			Precent = math.clamp(RelPos.X/script.Parent.AbsoluteSize.X,0,1)
+			script.Parent.TextButton.Position = UDim2.new(Precent,0,0.5,0)
+			print(Precent)
+			script.Parent.wstext.Text = math.round(Precent * 100)
+			script.Parent.UIGradient.Offset = Vector2.new(Precent, 0)
+		end
+	end)
+	
+	UserInputService.InputEnded:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			Dragging = false
+		end
+	end)
+	
+	game:GetService("RunService").RenderStepped:Connect(function()
+		for _, v in pairs(game.Workspace:GetChildren()) do
+			if v:FindFirstChild("HumanoidRootPart") then
+				if v:FindFirstChild("Humanoid") then
+					if v.Name ~= game.Players.LocalPlayer.Character.Name then
+						v.HumanoidRootPart.Size = Vector3.new(Precent * 100,Precent * 100,Precent * 100)
+						v.HumanoidRootPart.Transparency = 0.75
+						v.HumanoidRootPart.BrickColor = BrickColor.new("Really red")
+					end
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(LSGXQY_fake_script)()
+local function LZBZJ_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	local activated = false
+	
+	script.Parent.Activated:Connect(function()
+		if not activated then
+			activated = true
+			script.Parent.Text = "X"
+		else
+			activated = false
+			script.Parent.Text = ""
+		end
+	end)
+	
+	while wait(0.075) do
+		for _, v in pairs(game.Players:GetChildren()) do
+			if activated then
+				if v.Character then
+					if v.Character:FindFirstChild("HumanoidRootPart") then
+						local BillboardGui = Instance.new("BillboardGui")
+						local ImageLabel = Instance.new("ImageLabel")
+	
+						--Properties:
+	
+						BillboardGui.Parent = v.Character.HumanoidRootPart
+						BillboardGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+						BillboardGui.Active = true
+						BillboardGui.AlwaysOnTop = true
+						BillboardGui.LightInfluence = 1.000
+						BillboardGui.Size = UDim2.new(5, 0, 8, 0)
+	
+						ImageLabel.Parent = BillboardGui
+						ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+						ImageLabel.BackgroundTransparency = 1.000
+						ImageLabel.Size = UDim2.new(1, 0, 1, 0)
+						ImageLabel.Image = "http://www.roblox.com/asset/?id=2764141863"
+						game.Debris:AddItem(BillboardGui,0.1)
+					end
+				end
+			end
+		end
+	end
+end
+coroutine.wrap(LZBZJ_fake_script)()
+local function UWHR_fake_script() -- TextButton_4.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_4)
+
+	local activated = false
+	
+	script.Parent.Activated:Connect(function()
+		if not activated then
+			activated = true
+			script.Parent.Text = "X"
+		else
+			activated = false
+			script.Parent.Text = ""
+		end
+	end)
+	
+	game:GetService("RunService").RenderStepped:Connect(function()
+		if activated then
+			if game.Players.LocalPlayer.Character then
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.fromEulerAnglesYXZ(0,0.15,0)
+				game.Players.LocalPlayer.Character.Humanoid.AutoRotate = false
+			end
+		else
+		game.Players.LocalPlayer.Character.Humanoid.AutoRotate = true
+		end
+	end)
+end
+coroutine.wrap(UWHR_fake_script)()
+local function RIMMY_fake_script() -- TextButton_5.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_5)
+
+	local activated = false
+	
+	script.Parent.Activated:Connect(function()
+		if not activated then
+			activated = true
+			script.Parent.Text = "X"
+		else
+			activated = false
+			script.Parent.Text = ""
+		end
+	end)
+	
+	game:GetService("RunService").RenderStepped:Connect(function()
+		if activated then
+			game.Players.LocalPlayer.Character.Humanoid.HipHeight = math.random(-1,3)
+		else
+			game.Players.LocalPlayer.Character.Humanoid.HipHeight = 0
+		end
+	end)
+end
+coroutine.wrap(RIMMY_fake_script)()
+local function NATEMV_fake_script() -- TextButton_6.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_6)
+
+	local activated = false
+	
+	script.Parent.Activated:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.RootJoint.C0 = game.Players.LocalPlayer.Character.HumanoidRootPart.RootJoint.C0 * CFrame.Angles(math.pi, 0, math.pi)
+	end)
+end
+coroutine.wrap(NATEMV_fake_script)()
+local function LTHK_fake_script() -- TextButton_7.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_7)
+
+	local activated = false
+	
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	script.Parent.Activated:Connect(function()
+		if not activated then
+			activated = true
+			script.Parent.Text = "X"
+		else
+			activated = false
+			script.Parent.Text = ""
+		end
+	end)
+	
+	game:GetService("RunService").RenderStepped:Connect(function()
+		if activated then
+			counter = counter + 0.01
+			for _, v in pairs(game.Players.LocalPlayer.Character:GetDescendants()) do
+				if v:IsA("Part") or v:IsA("MeshPart") or v:IsA("UnionOperation") then
+					local bc = BrickColor.new(Color3.fromHSV(zigzag(counter),1,1))
+					v.BrickColor = bc
+					if v:IsA("MeshPart") then
+						v.TextureID = ""
+					end
+					if v:IsA("UnionOperation") then
+						v.UsePartColor = true
+					end
+				end
+				if v:IsA("SpecialMesh") then
+					v.TextureId = ""
+				end
+				if v:IsA("Shirt") or v:IsA("Pants") then
+					v:Destroy()
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(LTHK_fake_script)()
+local function MKPXP_fake_script() -- TextButton_8.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_8)
+
+	local activated = false
+	
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	script.Parent.Activated:Connect(function()
+		if not activated then
+			activated = true
+			script.Parent.Text = "X"
+		else
+			activated = false
+			script.Parent.Text = ""
+		end
+	end)
+	
+	game:GetService("UserInputService").JumpRequest:connect(function()
+		if activated then
+			game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+		end
+	end)
+end
+coroutine.wrap(MKPXP_fake_script)()
+local function HJFLMLI_fake_script() -- TextButton_9.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_9)
+
+	local activated = false
+	
+	script.Parent.Activated:Connect(function()
+		local emote = Instance.new("Animation")
+		emote.AnimationId = "rbxassetid://7241684161"
+		local emotes = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(emote)
+		emotes:Play()
+	end)
+end
+coroutine.wrap(HJFLMLI_fake_script)()
+local function YPQVCH_fake_script() -- topbar.Dragify 
+	local script = Instance.new('LocalScript', topbar)
+
+	local UIS = game:GetService("UserInputService")
+	function dragify(Frame)
+	    dragToggle = nil
+	    local dragSpeed = 0
+	    dragInput = nil
+	    dragStart = nil
+	    local dragPos = nil
+	    function updateInput(input)
+	        local Delta = input.Position - dragStart
+	        local Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+	        game:GetService("TweenService"):Create(Frame, TweenInfo.new(0.25), {Position = Position}):Play()
+	    end
+	    Frame.InputBegan:Connect(function(input)
+	        if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
+	            dragToggle = true
+	            dragStart = input.Position
+	            startPos = Frame.Position
+	            input.Changed:Connect(function()
+	                if input.UserInputState == Enum.UserInputState.End then
+	                    dragToggle = false
+	                end
+	            end)
+	        end
+	    end)
+	    Frame.InputChanged:Connect(function(input)
+	        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+	            dragInput = input
+	        end
+	    end)
+	    game:GetService("UserInputService").InputChanged:Connect(function(input)
+	        if input == dragInput and dragToggle then
+	            updateInput(input)
+	        end
+	    end)
+	end
+	
+	dragify(script.Parent)
+end
+coroutine.wrap(YPQVCH_fake_script)()
+local function SBRRTF_fake_script() -- joltzstupidgui.LocalScript 
+	local script = Instance.new('LocalScript', joltzstupidgui)
+
+	script.Parent.Name = math.random(1,60000000)
+	local uis = game:GetService("UserInputService")
+	local visible = false
+	
+	uis.InputBegan:Connect(function(key,inchat)
+		if not inchat then
+			if key.KeyCode == Enum.KeyCode.Insert then
+				if visible then
+					visible = false
+				else
+					visible = true
+				end
+				script.Parent.topbar.Visible = visible
+			end
+		end
+	end)
+end
+coroutine.wrap(SBRRTF_fake_script)()
+local function FOBT_fake_script() -- TextButton_10.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_10)
+
+	local activated = false
+	
+	script.Parent.Activated:Connect(function()
+		local emote = Instance.new("Animation")
+		emote.AnimationId = "rbxassetid://7241684161"
+		local emotes = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(emote)
+		emotes:Play()
+	end)
+end
+coroutine.wrap(FOBT_fake_script)()
+local function FSII_fake_script() -- TextButton_11.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_11)
+
+	local activated = false
+	
+	script.Parent.Activated:Connect(function()
+		local emote = Instance.new("Animation")
+		emote.AnimationId = "rbxassetid://7286083700"
+		local emotes = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(emote)
+		emotes:Play()
+	end)
+end
+coroutine.wrap(FSII_fake_script)()
+local function HQDMVPM_fake_script() -- TextButton_12.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_12)
+
+	local activated = false
+	
+	script.Parent.Activated:Connect(function()
+		local emote = Instance.new("Animation")
+		emote.AnimationId = "rbxassetid://7285373617"
+		local emotes = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(emote)
+		emotes:Play()
+	end)
+end
+coroutine.wrap(HQDMVPM_fake_script)()
+local function HMTQ_fake_script() -- TextButton_13.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_13)
+
+	local activated = false
+	
+	script.Parent.Activated:Connect(function()
+		local emote = Instance.new("Animation")
+		emote.AnimationId = "rbxassetid://7317526792"
+		local emotes = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(emote)
+		emotes:Play()
+	end)
+end
+coroutine.wrap(HMTQ_fake_script)()
+local function FIPK_fake_script() -- TextButton_14.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_14)
+
+	local activated = false
+	
+	script.Parent.Activated:Connect(function()
+		local emote = Instance.new("Animation")
+		emote.AnimationId = "rbxassetid://7317526792"
+		local emotes = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(emote)
+		emotes:Play()
+	end)
+end
+coroutine.wrap(FIPK_fake_script)()
+local function UMXOZG_fake_script() -- TextButton_15.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_15)
+
+	local activated = false
+	
+	script.Parent.Activated:Connect(function()
+		local emote = Instance.new("Animation")
+		emote.AnimationId = "rbxassetid://27789359"
+		local emotes = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(emote)
+		emotes:Play()
+	end)
+end
+coroutine.wrap(UMXOZG_fake_script)()
+local function CROLZIO_fake_script() -- TextButton_16.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_16)
+
+	local activated = false
+	
+	script.Parent.Activated:Connect(function()
+		local emote = Instance.new("Animation")
+		emote.AnimationId = "rbxassetid://7204950641"
+		local emotes = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(emote)
+		emotes:Play()
+	end)
+end
+coroutine.wrap(CROLZIO_fake_script)()
+local function UAEH_fake_script() -- TextButton_17.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_17)
+
+	local activated = false
+	
+	script.Parent.Activated:Connect(function()
+		local emote = Instance.new("Animation")
+		emote.AnimationId = "rbxassetid://7240926986"
+		local emotes = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(emote)
+		emotes:Play()
+	end)
+end
+coroutine.wrap(UAEH_fake_script)()
+local function NXWW_fake_script() -- TextButton_18.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_18)
+
+	local activated = false
+	
+	script.Parent.Activated:Connect(function()
+		local emote = Instance.new("Animation")
+		emote.AnimationId = "rbxassetid://7204178354"
+		local emotes = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(emote)
+		emotes:Play()
+	end)
+end
+coroutine.wrap(NXWW_fake_script)()
+local function LDJHUO_fake_script() -- TextButton_19.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_19)
+
+	local activated = false
+	
+	script.Parent.Activated:Connect(function()
+		local emote = Instance.new("Animation")
+		emote.AnimationId = "rbxassetid://6774489024"
+		local emotes = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(emote)
+		emotes:Play()
+	end)
+end
+coroutine.wrap(LDJHUO_fake_script)()
+local function ENSESWQ_fake_script() -- TextButton_20.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_20)
+
+	local activated = false
+	
+	script.Parent.Activated:Connect(function()
+		local emote = Instance.new("Animation")
+		emote.AnimationId = "rbxassetid://7392775020"
+		local emotes = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(emote)
+		emotes:Play()
+	end)
+end
+coroutine.wrap(ENSESWQ_fake_script)()
+local function PCACET_fake_script() -- TextButton_21.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_21)
+
+	local activated = false
+	
+	script.Parent.Activated:Connect(function()
+		local emote = Instance.new("Animation")
+		emote.AnimationId = "rbxassetid://7231436763"
+		local emotes = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(emote)
+		emotes:Play()
+	end)
+end
+coroutine.wrap(PCACET_fake_script)()
+local function HFUANJ_fake_script() -- TextButton_22.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_22)
+
+	local activated = false
+	
+	script.Parent.Activated:Connect(function()
+		local emote = Instance.new("Animation")
+		emote.AnimationId = "rbxassetid://7230250722"
+		local emotes = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(emote)
+		emotes:Play()
+	end)
+end
+coroutine.wrap(HFUANJ_fake_script)()
+local function WFRXE_fake_script() -- TextButton_23.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_23)
+
+	local activated = false
+	
+	script.Parent.Activated:Connect(function()
+		local emote = Instance.new("Animation")
+		emote.AnimationId = "http://www.roblox.com/Asset?ID=35654637"
+		local emotes = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(emote)
+		emotes:Play()
+	end)
+end
+coroutine.wrap(WFRXE_fake_script)()
+local function WRCCYXW_fake_script() -- TextButton_24.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_24)
+
+	local activated = false
+	
+	script.Parent.Activated:Connect(function()
+		local emote = Instance.new("Animation")
+		emote.AnimationId = "rbxassetid://7230458945"
+		local emotes = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(emote)
+		emotes:Play()
+	end)
+end
+coroutine.wrap(WRCCYXW_fake_script)()
+local function KKGY_fake_script() -- TextButton_25.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_25)
+
+	local activated = false
+	
+	script.Parent.Activated:Connect(function()
+		local emote = Instance.new("Animation")
+		emote.AnimationId = "rbxassetid://7205303819"
+		local emotes = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(emote)
+		emotes:Play()
+	end)
+end
+coroutine.wrap(KKGY_fake_script)()
+local function QNEFL_fake_script() -- TextButton_26.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_26)
+
+	local activated = false
+	
+	script.Parent.Activated:Connect(function()
+		local emote = Instance.new("Animation")
+		emote.AnimationId = "rbxassetid://7241013440"
+		local emotes = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(emote)
+		emotes:Play()
+	end)
+end
+coroutine.wrap(QNEFL_fake_script)()
+local function QYYY_fake_script() -- TextButton_27.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_27)
+
+	local activated = false
+	
+	script.Parent.Activated:Connect(function()
+		local emote = Instance.new("Animation")
+		emote.AnimationId = "rbxassetid://7204663244"
+		local emotes = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(emote)
+		emotes:Play()
+	end)
+end
+coroutine.wrap(QYYY_fake_script)()
+local function YUSZQ_fake_script() -- TextButton_28.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_28)
+
+	local activated = false
+	
+	script.Parent.Activated:Connect(function()
+		local emote = Instance.new("Animation")
+		emote.AnimationId = "rbxassetid://7226474775"
+		local emotes = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(emote)
+		emotes:Play()
+	end)
+end
+coroutine.wrap(YUSZQ_fake_script)()
+local function WWTUKH_fake_script() -- TextButton_29.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_29)
+
+	local activated = false
+	
+	script.Parent.Activated:Connect(function()
+		local emote = Instance.new("Animation")
+		emote.AnimationId = "rbxassetid://7345553053"
+		local emotes = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(emote)
+		emotes:Play()
+	end)
+end
+coroutine.wrap(WWTUKH_fake_script)()
+local function JEYE_fake_script() -- TextButton_30.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_30)
+
+	local activated = false
+	
+	script.Parent.Activated:Connect(function()
+		local emote = Instance.new("Animation")
+		emote.AnimationId = "rbxassetid://7240784879"
+		local emotes = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(emote)
+		emotes:Play()
+	end)
+end
+coroutine.wrap(JEYE_fake_script)()
+local function IHBDO_fake_script() -- TextButton_31.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_31)
+
+	local activated = false
+	
+	script.Parent.Activated:Connect(function()
+		local emote = Instance.new("Animation")
+		emote.AnimationId = "rbxassetid://7392458839"
+		local emotes = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(emote)
+		emotes:Play()
+	end)
+end
+coroutine.wrap(IHBDO_fake_script)()
+local function SRYMNEM_fake_script() -- TextButton_32.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_32)
+
+	local activated = false
+	
+	script.Parent.Activated:Connect(function()
+		local emote = Instance.new("Animation")
+		emote.AnimationId = "rbxassetid://7230581619"
+		local emotes = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(emote)
+		emotes:Play()
+	end)
+end
+coroutine.wrap(SRYMNEM_fake_script)()
+local function LWTW_fake_script() -- lasagnadance.LocalScript 
+	local script = Instance.new('LocalScript', lasagnadance)
+
+	local activated = false
+	
+	script.Parent.Activated:Connect(function()
+		local emote = Instance.new("Animation")
+		emote.AnimationId = "rbxassetid://7422966059"
+		local emotes = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(emote)
+		emotes:Play()
+	end)
+end
+coroutine.wrap(LWTW_fake_script)()
+local function PIGEBX_fake_script() -- topbar_2.Dragify 
+	local script = Instance.new('LocalScript', topbar_2)
+
+	local UIS = game:GetService("UserInputService")
+	function dragify(Frame)
+	    dragToggle = nil
+	    local dragSpeed = 0
+	    dragInput = nil
+	    dragStart = nil
+	    local dragPos = nil
+	    function updateInput(input)
+	        local Delta = input.Position - dragStart
+	        local Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+	        game:GetService("TweenService"):Create(Frame, TweenInfo.new(0.25), {Position = Position}):Play()
+	    end
+	    Frame.InputBegan:Connect(function(input)
+	        if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
+	            dragToggle = true
+	            dragStart = input.Position
+	            startPos = Frame.Position
+	            input.Changed:Connect(function()
+	                if input.UserInputState == Enum.UserInputState.End then
+	                    dragToggle = false
+	                end
+	            end)
+	        end
+	    end)
+	    Frame.InputChanged:Connect(function(input)
+	        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+	            dragInput = input
+	        end
+	    end)
+	    game:GetService("UserInputService").InputChanged:Connect(function(input)
+	        if input == dragInput and dragToggle then
+	            updateInput(input)
+	        end
+	    end)
+	end
+	
+	dragify(script.Parent)
+end
+coroutine.wrap(PIGEBX_fake_script)()
